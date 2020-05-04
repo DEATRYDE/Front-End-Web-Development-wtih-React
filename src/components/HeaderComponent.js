@@ -97,7 +97,7 @@ class Header extends Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <Button outline onClick={this.toggleModal}>
-                    <span className="fa fa=sigin-in fa-lg">Login</span>
+                    <span className="fa fa-sign-in fa-lg">Login</span>
                   </Button>
                 </NavItem>
               </Nav>
@@ -141,7 +141,7 @@ class Header extends Component {
                 ></Input>
               </FormGroup>
               <FormGroup check>
-                <Label Check>
+                <Label check>
                   <Input
                     type="checkbox"
                     id="checkbox"
